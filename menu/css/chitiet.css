@@ -1,0 +1,62 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tour-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.tour-description {
+    flex-basis: 50%;
+    padding-right: 20px;
+}
+
+/* Định dạng tiêu đề và nội dung trong tour-details */
+.tour-details h3 {
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+    margin-top: 5px;
+  }
+  
+  .tour-details p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  /* Định dạng giá tour */
+  .btour-price {
+    font-size: 24px;
+    color: #614747;
+    margin-top: 5px;
+  }
+  
+  .btour-price strong {
+    font-weight: bold;
+  }
+  
+  /* Định dạng nút đặt tour */
+  .btour-btn a {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .btour-btn a:hover {
+    background-color: #333;
+  }
+  .line-through{
+    font-size: 18px;
+  }
+  
